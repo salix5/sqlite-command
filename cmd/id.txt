@@ -1,2 +1,2 @@
-SELECT id from datas;
+SELECT id FROM datas;
 .exit
