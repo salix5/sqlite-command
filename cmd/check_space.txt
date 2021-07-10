@@ -1,10 +1,12 @@
-SELECT id, name FROM texts WHERE name LIKE ' %' OR name like '% ';
 SELECT id, name FROM texts WHERE name LIKE '%
 %';
+SELECT id, name FROM texts WHERE name LIKE ' %' OR name like '% ';
 SELECT id, name FROM texts WHERE name LIKE '%  %';
+SELECT id, name FROM texts WHERE name LIKE '「 ' OR desc LIKE ' 」';
 
 SELECT id, name FROM texts WHERE desc LIKE '% 。%' OR desc LIKE '%。 %';
 SELECT id, name FROM texts WHERE desc != ' ' AND (desc LIKE ' %' OR desc like '%
  %');
-SELECT id, name FROM texts WHERE name LIKE '%  %';
+SELECT id, name FROM texts WHERE desc LIKE '%  %';
+SELECT id, name FROM texts WHERE desc LIKE '「 ' OR desc LIKE ' 」';
 .exit
