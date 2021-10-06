@@ -32,7 +32,4 @@ AND datas.id != 84687358
 AND datas.id != 89870349;
 SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x2000 AND NOT desc like '%+%' AND datas.id != 1686814 AND datas.id != 27693363 AND datas.id != 53087962 AND datas.id != 80086070 AND datas.id != 90884403;
 SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x800000 AND NOT desc like '%×%';
-SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x4000000 AND NOT desc like '%隻
-%' AND NOT desc like '%隻以上
-%';
 .exit
