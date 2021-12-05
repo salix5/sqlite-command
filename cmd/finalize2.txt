@@ -16,6 +16,7 @@ UPDATE texts SET desc=replace(desc,'​','');
 UPDATE texts SET name=replace(name,'​','');
 UPDATE texts SET desc=replace(desc,'(','（');
 UPDATE texts SET desc=replace(desc,')','）');
+UPDATE texts SET desc=replace(desc,'＋','+');
 UPDATE texts SET desc=replace(desc,'。 ','。');
 UPDATE texts SET desc=replace(desc,'把','將');
 
