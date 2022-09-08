@@ -9,6 +9,8 @@ SELECT id, name FROM texts WHERE desc != ' ' AND (desc LIKE ' %' OR desc like '%
  %');
 SELECT id, name FROM texts WHERE desc LIKE '%  %';
 SELECT id, name FROM texts WHERE desc LIKE '「 ' OR desc LIKE ' 」';
+SELECT id, name FROM texts WHERE desc LIKE '%
+';
 
 SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x40 AND NOT desc like '%+%' AND NOT desc like '%×%' 
 AND datas.id != 10920352
