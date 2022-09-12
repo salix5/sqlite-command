@@ -10,6 +10,13 @@ UPDATE texts SET desc=replace(desc,'6星','等級6');
 UPDATE texts SET desc=replace(desc,'7星','等級7');
 UPDATE texts SET desc=replace(desc,'8星','等級8');
 UPDATE texts SET desc=replace(desc,'9星','等級9');
+
+update texts set desc=replace(desc,'我方主要怪獸區域','我方的主要怪獸區域');
+update texts set desc=replace(desc,'我方魔法與陷阱區域','我方的魔法與陷阱區域');
+update texts set desc=replace(desc,'我方靈擺區域','我方的靈擺區域');
+update texts set desc=replace(desc,'對手主要怪獸區域','對手的主要怪獸區域');
+update texts set desc=replace(desc,'對手魔法與陷阱區域','對手的魔法與陷阱區域');
+update texts set desc=replace(desc,'對手靈擺區域','對手的靈擺區域');
 UPDATE texts SET desc=replace(desc,'持有者手牌','持有者的手牌');
 UPDATE texts SET desc=replace(desc,'持有者牌組','持有者的牌組');
 UPDATE texts SET desc=replace(desc,'​','');
