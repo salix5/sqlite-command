@@ -1,0 +1,6 @@
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%' AND NOT name like '%之壺%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%②：%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③：%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%④：%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%⑤：%';
+.exit
