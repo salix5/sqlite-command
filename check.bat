@@ -19,6 +19,10 @@ sqlite3.exe cards.cdb <cmd\multi.txt >result\multi1.txt
 sqlite3.exe ..\Card\cards.cdb <cmd\multi.txt >result\multi2.txt
 fc result\multi1.txt result\multi2.txt
 
+sqlite3.exe cards.cdb <cmd\activate_chs.txt >result\activate1.txt
+sqlite3.exe ..\Card\cards.cdb <cmd\activate.txt >result\activate2.txt
+fc result\activate1.txt result\activate2.txt
+
 sqlite3.exe cards.cdb <cmd\once_pendulum.txt >result\once_p1.txt
 sqlite3.exe ..\Card\cards.cdb <cmd\once_pendulum.txt >result\once_p2.txt
 fc result\once_p1.txt result\once_p2.txt
