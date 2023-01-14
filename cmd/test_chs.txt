@@ -1,4 +1,4 @@
-SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%' AND NOT name like '%之壶%';
+/*SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%' AND NOT name like '%之壶%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%②：%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③：%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%④：%';
@@ -7,5 +7,23 @@ SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc li
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%②的效果%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③的效果%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%④的效果%';
-SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%⑤的效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%⑤的效果%';*/
+
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%的怪兽效果1回合%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①的怪兽效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%②的怪兽效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③的怪兽效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%④的怪兽效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%⑤的怪兽效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①的灵摆效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%②的灵摆效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③的灵摆效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%④的灵摆效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%⑤的灵摆效果%';
+
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND (desc like '%①：%场合发动%' OR desc like '%①：%场合把%');
+--SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND (desc like '%①：%才能发动%' OR desc like '%①：%才能把%' OR desc like '%①：%则能发动%' OR desc like '%①：%可以发动%');
+--SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND (desc like '%②：%才能发动%' OR desc like '%②：%才能把%' OR desc like '%②：%则能发动%' OR desc like '%②：%可以发动%');
+--SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND (desc like '%③：%才能发动%' OR desc like '%③：%才能把%' OR desc like '%③：%则能发动%' OR desc like '%③：%可以发动%');
+--SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND (desc like '%④：%才能发动%' OR desc like '%④：%才能把%' OR desc like '%④：%则能发动%' OR desc like '%④：%可以发动%');
 .exit
