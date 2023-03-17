@@ -1,4 +1,4 @@
-SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%' AND NOT name like '%之壺%';
+/*SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%' AND NOT name like '%之壺%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%②：%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③：%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%④：%';
@@ -19,7 +19,7 @@ SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc li
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%②靈擺效果%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③靈擺效果%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%④靈擺效果%';
-SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%⑤靈擺效果%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%⑤靈擺效果%';*/
 
 /*SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%場合發動%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%可以發動%';
@@ -27,4 +27,5 @@ SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND (desc l
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③：%可以發動%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%④：%可以發動%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%這個卡名%';*/
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%存在的場合%';
 .exit

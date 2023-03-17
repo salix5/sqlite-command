@@ -13,25 +13,17 @@ SELECT id, name FROM texts WHERE desc LIKE '%
 ';
 
 SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x40 AND NOT desc like '%+%' AND NOT desc like '%×%' 
-AND datas.id != 10920352
-AND datas.id != 10960419
+AND setcode!=0xa008 AND NOT desc like '%克力迪斯之牙%' AND not desc like '%海爾摩斯之爪%'
 AND datas.id != 13331639
 AND datas.id != 13857930
-AND datas.id != 22093873
-AND datas.id != 22804644
-AND datas.id != 29095552
 AND datas.id != 31111109
 AND datas.id != 33250142
-AND datas.id != 44373896
-AND datas.id != 46354113
-AND datas.id != 58293343
-AND datas.id != 58481572
-AND datas.id != 59642500
-AND datas.id != 62624486
-AND datas.id != 78734254
-AND datas.id != 83743222
-AND datas.id != 84687358
-AND datas.id != 89870349;
-SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x2000 AND NOT desc like '%+%' AND datas.id != 1686814 AND datas.id != 27693363 AND datas.id != 53087962 AND datas.id != 80086070 AND datas.id != 90884403;
+AND datas.id != 78734254;
+
+SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x2000 AND NOT desc like '%+%'
+AND setcode!=0x163
+AND datas.id != 1686814
+AND datas.id != 90884403;
+
 SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x800000 AND NOT desc like '%×%';
 .exit
