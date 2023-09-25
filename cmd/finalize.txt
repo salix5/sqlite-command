@@ -23,6 +23,7 @@ UPDATE texts SET desc=replace(desc,'雙方手牌','雙方的手牌');
 UPDATE texts SET desc=replace(desc,'持有者手牌','持有者的手牌');
 UPDATE texts SET desc=replace(desc,'持有者牌組','持有者的牌組');
 UPDATE texts SET desc=replace(desc,'那之中','其中');
+UPDATE texts SET desc=replace(desc,'這個回合沒有送去墓地的此卡','不是在這個回合送去墓地的此卡');
 UPDATE texts SET desc=replace(desc,'​','');
 UPDATE texts SET name=replace(name,'​','');
 UPDATE texts SET desc=replace(desc,'(','（');
