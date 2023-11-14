@@ -37,6 +37,6 @@ fc result\pre1.txt result\pre2.txt
 
 sqlite3.exe ..\Card\cards.cdb <cmd\check_tmp.txt
 sqlite3.exe ..\Card\cards.cdb <cmd\check_space.txt
-sqlite3.exe ..\cdb\pre-release.cdb <cmd\check_space.txt
-sqlite3.exe ..\cdb\pre-release.cdb <cmd\check_ending.txt
+sqlite3.exe ..\cdb\expansions\pre-release.cdb <cmd\check_space.txt
+sqlite3.exe ..\cdb\expansions\pre-release.cdb <cmd\check_ending.txt
 pause
