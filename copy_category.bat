@@ -1,1 +1,1 @@
-sqlite3.exe ..\Card\cards.cdb <cmd\copy_category.txt
+sqlite3.exe ..\cdb\cards.cdb <cmd\copy_category.txt
