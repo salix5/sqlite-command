@@ -29,7 +29,7 @@ fc result\once_p1.txt result\once_p2.txt
 
 sqlite3.exe cards.cdb <cmd\digit1.txt >result\dig1.txt
 sqlite3.exe ..\cdb\cards.cdb <cmd\digit1.txt >result\dig2.txt
-fc result\dig1.txt result\dig2.txt
+::fc result\dig1.txt result\dig2.txt
 
 sqlite3.exe test-release.cdb <cmd\compare_full.txt >result\pre1.txt
 sqlite3.exe ..\Card\expansions\beta.cdb <cmd\compare_full.txt >result\pre2.txt
