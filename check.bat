@@ -2,7 +2,7 @@
 rmdir /S /Q temp 
 mkdir temp
 cd temp
-curl https://cdn02.moecube.com:444/ygopro-super-pre/archive/ygopro-super-pre.ypk -o pre.ypk
+curl https://cdn02.moecube.com:444/ygopro-super-pre/archive/ygopro-super-pre.ypk -o ygopro-super-pre.ypk
 tar -x -f pre.ypk test-release.cdb
 cd ..
 sqlite3 <check.sql
