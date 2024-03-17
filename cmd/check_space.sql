@@ -27,4 +27,9 @@ AND datas.id != 1686814
 AND datas.id != 90884403;
 
 SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x800000 AND NOT desc like '%×%';
-.exit
+
+SELECT datas.id FROM datas, texts WHERE datas.id=texts.id AND desc like '%。①%';
+SELECT datas.id FROM datas, texts WHERE datas.id=texts.id AND desc like '%。②%';
+SELECT datas.id FROM datas, texts WHERE datas.id=texts.id AND desc like '%。③%';
+SELECT datas.id FROM datas, texts WHERE datas.id=texts.id AND desc like '%。④%';
+SELECT datas.id FROM datas, texts WHERE datas.id=texts.id AND desc like '%。⑤%';
