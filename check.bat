@@ -1,4 +1,5 @@
 @echo off
+rmdir /S /Q temp 
 mkdir temp
 cd temp
 curl https://cdn02.moecube.com:444/ygopro-super-pre/archive/ygopro-super-pre.ypk -o pre.ypk
