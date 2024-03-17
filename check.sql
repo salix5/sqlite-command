@@ -47,16 +47,15 @@
 .read cmd/check_tmp.sql
 .read cmd/check_space.sql
 
-.open test-release.cdb
+.open ../cdb/expansions/pre-release.cdb
+.read cmd/check_space.sql
+.read cmd/check_ending.sql
+
+.open temp/test-release.cdb
 .output result/pre1.txt
 .read cmd/compare_full.sql
 
 .open ../Card/expansions/beta.cdb
 .output result/pre2.txt
 .read cmd/compare_full.sql
-
-.open ../cdb/expansions/pre-release.cdb
-.output
-.read cmd/check_space.sql
-.read cmd/check_ending.sql
 .exit

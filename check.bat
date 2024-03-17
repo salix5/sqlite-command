@@ -1,4 +1,9 @@
 @echo off
+mkdir temp
+cd temp
+curl https://cdn02.moecube.com:444/ygopro-super-pre/archive/ygopro-super-pre.ypk -o pre.ypk
+tar -x -f pre.ypk test-release.cdb
+cd ..
 sqlite3 <check.sql
 fc result\datas1.txt result\datas2.txt
 fc result\choice1.txt result\choice2.txt
