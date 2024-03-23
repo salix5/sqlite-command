@@ -5,7 +5,9 @@ cd temp
 curl https://cdn02.moecube.com:444/ygopro-super-pre/archive/ygopro-super-pre.ypk -o ygopro-super-pre.ypk
 tar -x -f ygopro-super-pre.ypk test-release.cdb
 cd ..
+echo on
 sqlite3 <check.sql
+@echo off
 fc result\datas1.txt result\datas2.txt
 fc result\choice1.txt result\choice2.txt
 fc result\once1.txt result\once2.txt
