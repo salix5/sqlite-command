@@ -1,4 +1,4 @@
-.open cards.cdb
+.open ../mygo/locales/zh-CN/cards.cdb
 .output result/datas1.txt
 .read cmd/compare.sql
 
