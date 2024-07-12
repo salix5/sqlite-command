@@ -1,4 +1,4 @@
 result/*.txt
 temp
-*.exe
 *.ypk
+sqlite3.exe
