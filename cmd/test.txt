@@ -35,6 +35,8 @@ SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND desc like '%70%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND desc like '%80%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND desc like '%90%';
 
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%離開的場合%';
+
 /*SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND (desc like '%①：%可以發動%' OR desc like '%①：%連鎖那個發動可以在%');
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND (desc like '%②：%可以發動%' OR desc like '%②：%連鎖那個發動可以在%');
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③：%可以發動%';
