@@ -18,7 +18,7 @@
 .read cmd/activate_chs.sql
 
 .output result/dig1.txt
-.read cmd/digit1.sql
+.read cmd/digit.sql
 
 
 .open ../cdb/cards.cdb
@@ -41,7 +41,7 @@
 .read cmd/activate.sql
 
 .output result/dig2.txt
-.read cmd/digit1.sql
+.read cmd/digit.sql
 
 .output
 .read cmd/check_tmp.sql
