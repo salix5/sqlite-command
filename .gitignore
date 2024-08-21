@@ -1,4 +1,5 @@
 result/*.txt
 temp
+*.cdb
 *.ypk
 sqlite3.exe
