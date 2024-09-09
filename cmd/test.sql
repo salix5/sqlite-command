@@ -1,3 +1,6 @@
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND desc like '%抽牌階段%';
+SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND desc like '%準備階段%';
+
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%①：%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%②：%';
 SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%③：%';
