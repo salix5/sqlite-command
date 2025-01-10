@@ -1,5 +1,5 @@
-result/*.txt
-temp
-*.cdb
-*.ypk
-sqlite3.exe
+/result/*.txt
+/temp/
+/*.cdb
+/*.ypk
+/sqlite3.exe
