@@ -23,6 +23,7 @@
 
 .open ../cdb/cards.cdb
 .output result/datas2.txt
+.read cmd/copy_category.sql
 .read cmd/compare.sql
 
 .output result/choice2.txt
@@ -50,12 +51,4 @@
 .open ../cdb/expansions/pre-release.cdb
 .read cmd/check_space.sql
 .read cmd/check_ending.sql
-
-.open temp/test-release.cdb
-.output result/pre1.txt
-.read cmd/compare_full.sql
-
-.open ../Card/expansions/beta.cdb
-.output result/pre2.txt
-.read cmd/compare_full.sql
 .exit
