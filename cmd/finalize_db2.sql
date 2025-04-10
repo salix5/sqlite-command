@@ -34,4 +34,3 @@ UPDATE texts SET desc=replace(desc,'把','將');
 
 UPDATE texts SET desc=replace(replace(desc, char(13,10), char(10)), char(10), char(13,10));
 UPDATE texts SET desc=replace(desc,'「」','「'||name||'」');
-UPDATE datas SET ot=3 where ot!=2;
