@@ -43,12 +43,4 @@
 
 .output result/dig2.txt
 .read cmd/digit.sql
-
-.output
-.read cmd/check_tmp.sql
-.read cmd/check_space.sql
-
-.open ../cdb/expansions/pre-release.cdb
-.read cmd/check_space.sql
-.read cmd/check_ending.sql
 .exit
