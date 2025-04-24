@@ -1,3 +1,5 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
 UPDATE texts SET desc=replace(desc,'10星','等級10');
 UPDATE texts SET desc=replace(desc,'11星','等級11');
 UPDATE texts SET desc=replace(desc,'12星','等級12');
@@ -35,3 +37,4 @@ UPDATE texts SET desc=replace(desc,'把','將');
 UPDATE texts SET desc=replace(replace(desc, char(13,10), char(10)), char(10), char(13,10));
 UPDATE texts SET desc=replace(desc,'「」','「'||name||'」');
 UPDATE datas SET ot=3 WHERE type & 0x4000;
+COMMIT;
