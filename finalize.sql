@@ -1,7 +1,7 @@
 .open ../cdb/cards.cdb
 .read cmd/finalize_db.sql
 .output ../cdb/cards.cdb.sql
-.dump datas
+.dump
 .output
 .read cmd/check_tmp.sql
 .read cmd/check_space.sql
