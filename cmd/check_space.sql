@@ -12,6 +12,7 @@ SELECT id, name FROM texts WHERE desc LIKE '「 ' OR desc LIKE ' 」';
 SELECT id, name FROM texts WHERE desc LIKE '%
 ';
 
+SELECT id, ot FROM datas WHERE ot!=1 AND ot!=2 AND ot!=3;
 SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x40 AND NOT desc like '%+%' AND NOT desc like '%×%' 
 AND setcode!=0xa008 AND NOT desc like '%克力迪斯之牙%' AND not desc like '%海爾摩斯之爪%'
 AND datas.id != 13331639
