@@ -19,7 +19,8 @@ AND datas.id != 13857930
 AND datas.id != 31111109
 AND datas.id != 33250142
 AND datas.id != 78734254
-AND datas.id != 6218704;
+AND datas.id != 6218704
+AND datas.id != 71398055;
 
 SELECT datas.id, name FROM datas, texts WHERE datas.id==texts.id AND type & 0x2000 AND NOT desc like '%+%'
 AND setcode!=0x163
