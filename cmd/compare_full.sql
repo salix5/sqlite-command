@@ -1,1 +1,1 @@
-SELECT id, alias, setcode, type, atk, def, level, race, attribute FROM datas;
+SELECT id, alias, setcode, type, atk, def, level, race, attribute FROM datas ORDER BY id;

@@ -1,14 +1,14 @@
-select texts.id from datas, texts 
-where datas.id != 45986603 and datas.id==texts.id and datas.ot!=2 and texts.desc like '%①%';
+SELECT datas.id FROM datas, texts 
+WHERE datas.id==texts.id AND datas.ot!=2 AND texts.desc LIKE '%①%' ORDER BY datas.id;
 
-select texts.id from datas, texts 
-where datas.id != 45986603 and datas.id==texts.id and datas.ot!=2 and texts.desc like '%②%';
+SELECT datas.id FROM datas, texts 
+WHERE datas.id==texts.id AND datas.ot!=2 AND texts.desc LIKE '%②%' ORDER BY datas.id;
 
-select texts.id from datas, texts 
-where datas.id==texts.id and datas.ot!=2 and texts.desc like '%③%';
+SELECT datas.id FROM datas, texts 
+WHERE datas.id==texts.id AND datas.ot!=2 AND texts.desc LIKE '%③%' ORDER BY datas.id;
 
-select texts.id from datas, texts 
-where datas.id==texts.id and datas.ot!=2 and texts.desc like '%④%';
+SELECT datas.id FROM datas, texts 
+WHERE datas.id==texts.id AND datas.ot!=2 AND texts.desc LIKE '%④%' ORDER BY datas.id;
 
-select texts.id from datas, texts 
-where datas.id==texts.id and datas.ot!=2 and texts.desc like '%⑤%';
+SELECT datas.id FROM datas, texts 
+WHERE datas.id==texts.id AND datas.ot!=2 AND texts.desc LIKE '%⑤%' ORDER BY datas.id;
