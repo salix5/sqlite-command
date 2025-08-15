@@ -1,1 +1,1 @@
-SELECT datas.id FROM datas, texts WHERE datas.id==texts.id AND ot!=2 AND desc like '%1回合只能使用1次%①%' ORDER BY datas.id;
+SELECT id FROM datas JOIN texts USING (id) WHERE ot!=2 AND desc like '%1回合只能使用1次%①%' ORDER BY id;
