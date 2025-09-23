@@ -9,7 +9,7 @@ UPDATE texts SET desc=replace(desc,'3星','等級3');
 UPDATE texts SET desc=replace(desc,'4星','等級4');
 UPDATE texts SET desc=replace(desc,'5星','等級5');
 UPDATE texts SET desc=replace(desc,'6星','等級6');
-UPDATE texts SET desc=replace(desc,'7星','等級7') WHERE NOT desc like '%托勒密M7星聖%';
+UPDATE texts SET desc=replace(desc,'7星','等級7') WHERE NOT desc like '%托勒密_7星聖%';
 UPDATE texts SET desc=replace(desc,'8星','等級8');
 UPDATE texts SET desc=replace(desc,'9星','等級9');
 
