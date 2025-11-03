@@ -34,7 +34,7 @@ UPDATE texts SET desc=replace(desc,'＋','+');
 UPDATE texts SET desc=replace(desc,'。 ','。');
 UPDATE texts SET desc=replace(desc,'把','將');
 
-UPDATE texts SET desc=replace(replace(desc, char(13,10), char(10)), char(10), char(13,10));
+UPDATE texts SET desc=replace(replace(desc, unistr('\u000d\u000a'), unistr('\u000a')), unistr('\u000d'), unistr('\u000a'));
 UPDATE texts SET desc=replace(desc,'「」','「'||name||'」');
 UPDATE datas SET ot=3 WHERE type & 0x4000;
 COMMIT;
