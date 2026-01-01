@@ -1,5 +1,6 @@
 @echo off
 cd ../mygo
+git checkout master
 git pull
 cd ../sqlite-command
 sqlite3 <compare.sql
