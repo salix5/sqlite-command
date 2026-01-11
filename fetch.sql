@@ -1,7 +1,7 @@
 .open ../cdb/expansions/pre-release.cdb
 .param init
---25DB
-.param set @pack 100251000
+--CH02
+.param set @pack 100254000
 PRAGMA integrity_check;
 PRAGMA cell_size_check=ON;
 PRAGMA trusted_schema=OFF;
