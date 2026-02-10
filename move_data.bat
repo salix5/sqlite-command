@@ -1,1 +1,1 @@
-sqlite3 <move_data.sql
+./sqlite3.exe <move_data.sql

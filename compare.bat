@@ -3,7 +3,7 @@ cd ../mygo
 git checkout master
 git pull
 cd ../sqlite-command
-sqlite3 <compare.sql
+./sqlite3.exe <compare.sql
 fc result\datas1.txt result\datas2.txt
 fc result\choice1.txt result\choice2.txt
 fc result\once1.txt result\once2.txt
