@@ -1,1 +1,1 @@
-./sqlite3.exe <finalize.sql
+sqlite3 <finalize.sql
