@@ -21,6 +21,7 @@ AND id != 31111109
 AND id != 33250142
 AND id != 78734254
 AND id != 6218704
+AND id != 6218705
 AND id != 71398055;
 
 SELECT id, name FROM datas JOIN texts USING (id) WHERE type & 0x2000 AND NOT desc like '%+%'
