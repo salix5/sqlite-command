@@ -21,7 +21,7 @@
 .read cmd/digit.sql
 
 
-.open ../cdb/cards.cdb
+.open ../cdb/db/cards.cdb
 .output result/datas2.txt
 .read cmd/copy_category.sql
 .read cmd/compare.sql

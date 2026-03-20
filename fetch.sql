@@ -1,4 +1,4 @@
-.open ../cdb/expansions/pre-release.cdb
+.open ../cdb/db/pre-release.cdb
 .param init
 --CH02
 .param set @pack 100257001
