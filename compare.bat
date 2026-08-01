@@ -1,8 +1,5 @@
 @echo off
 cd ..
-git clone --depth=1 https://github.com/mycard/ygopro-database.git mygo
-git -C mygo checkout master
-git -C mygo pull
 cd sqlite-command
 sqlite3 <compare.sql
 fc result\datas1.txt result\datas2.txt
