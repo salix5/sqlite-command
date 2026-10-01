@@ -1,6 +1,5 @@
 .open ../cdb/db/pre-release.cdb
 .param init
---CH02
 .param set @pack 100270000
 PRAGMA integrity_check;
 PRAGMA cell_size_check=ON;
