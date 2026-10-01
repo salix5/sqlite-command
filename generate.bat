@@ -1,7 +1,0 @@
-del temp\*.cdb temp\*.conf
-del pre-release.*
-copy ..\CardEditor\expansions\*.cdb temp
-copy ..\CardEditor\expansions\*.conf temp
-tar -C temp -caf pre-release.zip *.*
-rename pre-release.zip pre-release.ypk
-copy /y pre-release.ypk ..\ypk
