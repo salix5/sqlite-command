@@ -2,7 +2,7 @@
 .open ../cdb/db/pre-release.cdb
 .param init
 .param set @begin 100270000
-.param set @end 101306000
+.param set @end 101399000
 PRAGMA trusted_schema=OFF;
 PRAGMA cell_size_check=ON;
 PRAGMA quick_check(1);
